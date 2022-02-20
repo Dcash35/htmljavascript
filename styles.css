@@ -1,0 +1,70 @@
+/*remove bullets,margins and padding from the list*/
+ul {
+    list-style-type: none;
+    margin-left: 2%;
+    padding: 5;
+    overflow: hidden;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    display: float;
+    color: white;
+    text-align: center;
+    padding: 16px;  
+    font-size: 25px;
+  }
+  /*creating a horizontal Navbar*/
+  nav 
+  li  {
+    display: inline-flex;
+      height: 15%;
+      width: 20%;
+  }
+ li a  {
+      display: inline;
+      height: 100%;
+      width: 100%;  
+     } 
+
+/* mouse over link */
+a:hover {
+    color: white;  
+    text-decoration:none;  
+    /*background is of a juicy burger, will add the slogan Fresh,Bold and Tasty*/
+}
+
+
+ body{
+     background-image: url("3BURGERS.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+ }
+ h1{
+    font-size: 150px;
+    color: white;
+    font-weight: bold;
+    text-align: center;  
+ }
+ dev{
+   position: absolute;
+   bottom: -5%;
+   left: 10%;
+   text-align: center;    
+ }
+ h2{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    left: -10%;
+    bottom: 60%;
+    position: absolute;
+ }
+ h3{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    right: 2%;
+    bottom: 5%;
+    position: absolute;
+ }
